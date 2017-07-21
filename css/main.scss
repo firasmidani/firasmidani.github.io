@@ -19,3 +19,36 @@ $border-color: #ddd;
 @import "base";
 @import "layout";
 @import "syntax";
+
+
+/*****************************************************************************/
+/* education
+/*****************************************************************************/
+
+ul.education {list-style-type: none; margin-bottom: 2em;padding: 0;}
+
+ul.education li {
+  list-style-type: none;
+  line-height: 1.55em;
+  padding: 0;
+  margin-top:1em;
+}
+
+ul.education span {color: #333;font-size: 100%;}
+
+/*****************************************************************************/
+/* publications
+/*****************************************************************************/
+
+ul.publications {
+  list-style-type: none;
+  margin-bottom: 2em;
+  padding: 0;   
+}
+
+ul.publications li {
+  list-style-type: none;
+  line-height: 1.55em;
+  padding: 0;
+  margin-top:1em;
+}
