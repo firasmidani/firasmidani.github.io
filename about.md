@@ -17,13 +17,14 @@ Influenced by Vida, a minimalist jekyll theme.
 <col width="22%">
 <tr> 
    <td align="left" vertical-align="center" style="padding-left:0px">
-         <p1 class="blurb">I am a <a href="https://genome.duke.edu/education/CBB">computational biologist</a> studying the ecology of human gut microbiome. 
-	   My scientific research leverages high-throughput experiments and machine learning 
-		to illustrate how ecosystem structure influences ecosystem functions such as 
-		community productivity, community assembly, and colonization resistance. 
-	   I am currently a Ph.D. candidate in the <a href="http://el.ladlab.org:8080">Lawrence David lab</a> 
-		at <a href="https://en.wikipedia.org/wiki/Duke_University">Duke University</a>. 
-       </p1>  
+   <p> I am a <a href="https://genome.duke.edu/education/CBB">computational biologist</a> 
+   studying the ecology of human gut microbiome. 
+   My scientific research leverages high-throughput experiments and machine learning 
+   to illustrate how ecosystem structure influences ecosystem functions such as 
+   community productivity, community assembly, and colonization resistance. 
+   I am currently a Ph.D. candidate in the <a href="http://el.ladlab.org:8080">Lawrence David lab</a> 
+   at <a href="https://en.wikipedia.org/wiki/Duke_University">Duke University</a>. 
+   </p1>  
 </td>
 <td align="right" style="padding-left:0px">
 <img src="/assets/midani_head.png" width="120px" class="img-polaroid" opacity="0.5";/>
