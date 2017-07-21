@@ -49,11 +49,11 @@ td {
 th {
     text-align: left;
     vertical-align: bottom;
-    border-bottom: 2px solid $border-color;
+    border-bottom: 0px solid $border-color;
 }
 td {
     vertical-align: top;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 0px solid $border-color;
 }
 pre {
     padding: 1.25rem;
