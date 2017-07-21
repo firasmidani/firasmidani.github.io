@@ -4,12 +4,6 @@ title:     About
 permalink: /about/
 ---
 
-Influenced by Vida, a minimalist jekyll theme.
-
-- Author: Firas Midani
-- Email:  firasmidani@gmail.com
-- Github: [https://github.com/firasmidni](https://github.com/firasmidani)
-
 <div class="blurb">
 <table>
 <col width="78%">
@@ -46,3 +40,12 @@ Influenced by Vida, a minimalist jekyll theme.
 	  
   </ul>
 </div>
+
+
+Influenced by Vida, a minimalist jekyll theme.
+
+- Author: Firas Midani
+- Email:  firasmidani@gmail.com
+- Github: [https://github.com/firasmidni](https://github.com/firasmidani)
+
+
