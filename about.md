@@ -10,6 +10,7 @@ Influenced by Vida, a minimalist jekyll theme.
 - Email:  firasmidani@gmail.com
 - Github: [https://github.com/firasmidni](https://github.com/firasmidani)
 
+<div class="blurb">
 <table>
 <col width="78%">
 <col width="22%">
@@ -29,8 +30,10 @@ Influenced by Vida, a minimalist jekyll theme.
     </td>  
   </tr>
 </table>
+</div>
 
 
+<div id="home">
 <h2>Blog Posts</h2>
 
     <ul class="posts">
@@ -42,3 +45,4 @@ Influenced by Vida, a minimalist jekyll theme.
     {% endfor %}
 	  
   </ul>
+</div>
