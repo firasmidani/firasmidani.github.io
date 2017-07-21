@@ -1,1 +1,18 @@
 theme: jekyll-theme-cayman
+
+name: Firas S Midani
+title: firas
+email: firas.midani@duke.edu
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty
+date_format: "%Y-%m-%d"
+
+
+# Third-party services
+# just leave someone empty to disable it
+google_analytics:
+disqus_shortname:
