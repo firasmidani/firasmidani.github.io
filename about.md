@@ -1,9 +1,8 @@
 ---
-layout:    default
+layout: default
 permalink: /about/
 ---
 
-<div class="blurb">
 <table>
 <col width="78%">
 <col width="22%">
@@ -23,8 +22,6 @@ permalink: /about/
     </td>  
   </tr>
 </table>
-</div>
-
 
 <div id="home">
 <h2>Blog Posts</h2>
