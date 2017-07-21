@@ -17,6 +17,14 @@
         </header>
         {{ content }}
     </main>
+    <footer class="container">
+	  <p >
+		By {{ site.title }} /
+		<a href="mailto:{{ site.email }}">{{ site.email }}</a> /
+		<a href="http://github.com/firasmidani">GitHub</a> /
+	    <a href="http://twitter.com/firasmidani">Twitter</a>
+	  </p>
+	</footer>	
     {% if site.google_analytics %}
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
