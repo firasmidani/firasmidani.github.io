@@ -18,7 +18,7 @@ permalink: /about/
       </p1>  
     </td>
     <td align="right" style="padding-left:0px">
-    <img src="/assets/midani_head.png" opacity="0.5";/>
+<img src="/assets/midani_head.png" width="120px" class="img-polaroid" opacity="0.5";/>
     </td>  
   </tr>
 </table>
