@@ -1,1 +1,17 @@
+---
+layout: default
+title: posts
+---
 
+<div id="home">
+
+    <ul class="posts">
+    {% for post in site.posts %}
+	<li>
+		<span>{{ post.date | date: "%F" }} &raquo;</span>  
+	        <a style="font-size:1em;" href="{{ post.url }}">{{ post.title }}</a>
+	</li>
+    {% endfor %}
+	  
+  </ul>
+</div>
