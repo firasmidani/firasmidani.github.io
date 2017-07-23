@@ -11,7 +11,7 @@ A phylogenetic tree is simply a representation of the history of how species evo
 
 But what does that really mean? What is it about the ultrametricity criterion, \$$ M_{ij} = M_{jk} \geqslant M_{ik}, $$ that is important for tree building?! How does the assumption of constant mutation rate simplify tree building?! Let me illustrate by an example. See the attached for a tree \(that I got from <a href="http://lectures.molgen.mpg.de/Phylogeny/Ultrametric/index.html">here</a>\).
 
-{.center}!toy_hylogenetic_tree](/assets/img/toy_phylo_tree.png){:height="200px" width="250px"}
+!toy_hylogenetic_tree](/assets/img/toy_phylo_tree.png){:height="200px" width="250px"}
 
 
 Let us focus on the leaves $$D$$, $$A$$, and $$C$$. The distance are as follows 
