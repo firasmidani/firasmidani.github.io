@@ -13,7 +13,7 @@ But what does that really mean? What is it about the ultrametricity criterion, \
 
 ![toy_hylogenetic_tree](/assets/img/toy_phylo_tree.png){:height="200px" width="250px" .center}
 
-<img src="/assets/img/toy_phylo_tree.png" alt="toy_hylogenetic_tree" style="width:250px height:200px text-align:center;"/>
+<img src="/assets/img/toy_phylo_tree.png" alt="toy_hylogenetic_tree" style="width:125px height:100px text-align:center;"/>
 
 Let us focus on the leaves $$D$$, $$A$$, and $$C$$. The distance are as follows 
 * $$ d(A,C)=2+2=4 $$, 
