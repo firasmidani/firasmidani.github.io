@@ -4,7 +4,15 @@ layout: default
 
 <article class="post">
     <h2 class="post-header">{{ page.title }}</h2>
-    <p class="post-meta">{{ page.date | date: site.date_format }}</p>
+    <p class="post-meta">
+    {% assign day = page.date | date: "%-d"  %}
+    {% case day %}
+      {% when '1' or '21' or '31' %}{{ day }}st
+      {% when '2' or '22' %}{{ day }}nd
+      {% when '3' or '23' %}{{ day }}rd
+      {% else %}{{ day }}th
+    {% endcase %}
+    {{ page.date | date: site.date_format }}</p>
     {% if page.use_math %}
         {% include mathjax_support %}
     {% endif %}
