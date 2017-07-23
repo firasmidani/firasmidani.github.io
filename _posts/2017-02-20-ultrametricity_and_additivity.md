@@ -14,7 +14,11 @@ But what does that really mean? What is it about the ultrametricity criterion, \
 ![toy_hylogenetic_tree](/assets/img/toy_phylo_tree.png){:height="200px" width="250px" .center}
 
 
-Let us focus on the leaves of $$D$$, $$A$$, and $$C$$. The distance are as follow $$ d(A,C)=2+2=4 $$, $$ d(D,A)=3+1+2=6 $$, $$ d(D,C)=3+1+2=6 $$. In this case, $$ d(D,A)=d(D,C)=6 $$ but either of those distances is larger than $$ d(A,C)=4 $$. So, we can apply the following: 
+Let us focus on the leaves of $$D$$, $$A$$, and $$C$$. The distance are as follow 
+* $$ d(A,C)=2+2=4 $$, 
+* $$ d(D,A)=3+1+2=6 $$,
+* $$ d(D,C)=3+1+2=6 $$. 
+In this case, $$ d(D,A)=d(D,C)=6 $$ but either of those distances is larger than $$ d(A,C)=4 $$. So, we can apply the following: 
 
 1\) Because the distances between $$A$$ and $$C$$ are smaller than distances of each to $$D$$, we can cluster $$A$$ and $$C$$ together. 
 2\) Because the distance of $$A$$ and $$C$$ to their closest relative $$D$$ are equal, we can assume that $$A$$, $$C$$, and $$D$$ share a common ancestor. 
