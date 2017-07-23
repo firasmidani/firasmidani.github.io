@@ -4,6 +4,9 @@ layout: default
 <article class="post">
     <h2 class="post-header">{{ page.title }}</h2>
     <p class="post-meta">{{ page.date | date: site.date_format }}</p>
+    {% if page.use_math %}
+        {% include mathjax_support %}
+    {% endif %}
     {{ content }}
     {% if site.disqus_shortname %}
       <div id="disqus_thread"></div>
@@ -16,8 +19,5 @@ layout: default
           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
       </script>
-    {% endif %}
-    {% if page.use_math %}
-        {% include mathjax_support %}
     {% endif %}
 </article>
