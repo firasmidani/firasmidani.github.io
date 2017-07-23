@@ -20,8 +20,8 @@ Let us focus on the leaves of $$D$$, $$A$$, and $$C$$. The distance are as follo
 * $$ d(D,C)=3+1+2=6 $$. 
 In this case, $$ d(D,A)=d(D,C)=6 $$ but either of those distances is larger than $$ d(A,C)=4 $$. So, we can apply the following: 
 
-1\) Because the distances between $$A$$ and $$C$$ are smaller than distances of each to $$D$$, we can cluster $$A$$ and $$C$$ together. 
-2\) Because the distance of $$A$$ and $$C$$ to their closest relative $$D$$ are equal, we can assume that $$A$$, $$C$$, and $$D$$ share a common ancestor. 
+1. Because the distances between $$A$$ and $$C$$ are smaller than distances of each to $$D$$, we can cluster $$A$$ and $$C$$ together. 
+2. Because the distance of $$A$$ and $$C$$ to their closest relative $$D$$ are equal, we can assume that $$A$$, $$C$$, and $$D$$ share a common ancestor. 
 
 So, to recap, the inequality -- smaller than -- criteria allows you to cluster species into artificial nodes where they have been assumed to diverge in their history, while the equality allows you to relate them in a equidistant fashion to their second closest relative. 
 
