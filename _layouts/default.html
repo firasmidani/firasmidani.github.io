@@ -14,6 +14,9 @@
                 <a href="/about/" class="{% if page.url == '/about/' %}active{% endif %}">About</a>
                 <a href="/cv/" class="{% if page.url == '/sample/' %}active{% endif %}">CV</a>
             </nav>
+	    {% if page.use_math %}
+      		{% include mathjax_support %}
+    	    {% endif %}
         </header>
         {{ content }}
     <hr>
