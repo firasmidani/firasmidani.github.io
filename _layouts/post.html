@@ -12,7 +12,7 @@ layout: default
       {% when '3' or '23' %}{{ day }}rd
       {% else %}{{ day }}th
     {% endcase %}
-    {{ page.date | date: site.date_format }}</p>
+    {{ page.date | date: "of %B, %Y" }}</p>
     {% if page.use_math %}
         {% include mathjax_support %}
     {% endif %}
