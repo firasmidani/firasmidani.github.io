@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ultrametricity and additivity criteria for phylogenetic trees. Why do they matter?"
+title: "Ultrametricity and additivity criteria for phylogenetic trees: Why do they matter?"
 date: 2017-07-20
 use_math: true
 ---
