@@ -6,7 +6,7 @@ layout: post
     <h2 class="post-header">{{ page.title }}</h2>
     <p class="post-meta">{{ page.date | date: site.date_format }}</p>
     {% if page.use_math %}
-        {% includes mathjax_support %}
+        {% include mathjax_support %}
     {% endif %}
     {{ content }}
     {% if site.disqus_shortname %}
