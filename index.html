@@ -24,7 +24,7 @@ title: home
   </tr>
 </table>
 <div id="home">
-<h2>Blog Posts</h2>
+<h1>Blog Posts</h1>
 
     <ul class="posts">
     {% for post in site.posts %}
@@ -32,7 +32,7 @@ title: home
 		<span>{{ post.date | date: "%F" }} &raquo;</span>  
 	        <a style="font-size:1em;" href="{{ post.url }}">{{ post.title }}</a>
 	</li>
-    {% endfor %}
-	  
+    {% endfor %}  
   </ul>
 </div>
+<br>
