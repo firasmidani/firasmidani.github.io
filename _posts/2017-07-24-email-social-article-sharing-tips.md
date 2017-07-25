@@ -5,5 +5,7 @@ date: 2017-07-24
 use_math: true
 ---
 <br><br><br>
-** ... article in progress ... **
+
+** article in progress  **
+
 <br><br><br>
