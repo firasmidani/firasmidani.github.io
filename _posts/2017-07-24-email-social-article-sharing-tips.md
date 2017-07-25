@@ -4,8 +4,10 @@ title: "Macros and citation styles to improve efficacy of sharing and discussing
 date: 2017-07-24
 use_math: true
 ---
-<br><br><br>
 
-** article in progress  **
 
-<br><br><br>
+
+** ... article in progress ... **
+
+
+
