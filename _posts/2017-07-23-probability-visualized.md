@@ -4,6 +4,10 @@ title: "Joint, conditional, and marginal probabilities: a visual explanation."
 date: 2017-07-23
 use_math: true
 ---
-<br><br><br>
+
+
+
 ** ... article in progress ... **
-<br><br><br>
+
+
+
