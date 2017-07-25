@@ -10,8 +10,7 @@ kramdown:
   input: GFM
 permalink: pretty
 date_format: "%Y-%m-%d"
-syntax_highligher: Rouge
-
+highlight: Pygments
 
 # Third-party services
 # just leave someone empty to disable it
