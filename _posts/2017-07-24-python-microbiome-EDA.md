@@ -3,6 +3,7 @@ layout: post
 title: "Python functions for microbiome exploratory data analysis."
 date: 2017-07-24
 use_math: true
+comments: true
 ---
 
 **... article in progress ...**
