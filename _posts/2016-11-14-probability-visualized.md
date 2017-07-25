@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Joint, conditional, and marginal probabilities: a visual explanation."
-date: 2017-07-23
+date: 2016-11-14
 use_math: true
 ---
 
