@@ -21,7 +21,7 @@ def joinTables(list_of_tables):
     return new_table 
 ```
 
-{% highlight python %}
+```php
 def joinTables(list_of_tables):
     '''
     INPUT
@@ -35,4 +35,4 @@ def joinTables(list_of_tables):
     new_table = pd.concat(list_of_tables,axis=0,join='outer').fillna(0)
     
     return new_table
-{% highlight python %}
+```
