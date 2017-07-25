@@ -27,3 +27,6 @@ In this case, $$ d(D,A)=d(D,C)=6 $$ but either of those distances is larger than
 So, to recap, the inequality (smaller than<a></a>) criteria allows you to cluster species into artificial nodes where they have been assumed to diverge in their history, while the equality allows you to relate them in a equidistant fashion to their second closest relative. 
 
 The additivity criteria is just a bit more complicated than the ultrametricity criteria. So, I won't try to illustrate it here, as I did above for ultrametricity. But you can apply a similar logic to understand intuitively why the additivity criteria, \$$ (M_{ij} + M_{kl}) = (M_{il}+M_{jk}) \geqslant (M_{ik}+M_{jl}) $$ is important for building a phylogenetic tree. Nonetheless, I would like to emphasize how additivity is different from ultrametricity. In reality, mutations occur at different rates during speciation events. So, two species that are related to a common ancestor might not necessarily be equidistant from their common ancestor. In such a case, a phylogenetic tree that is additive allows you to relax the erroneous (but simplifying<a></a>) assumption that the rates of mutation leading to species events is constant. 
+
+![footer_banner](/assets/img/mosaic_footer.png)
+
