@@ -5,9 +5,9 @@ date: 2017-07-24
 use_math: true
 comments: true
 ---
-
-**... article in progress ...**
-
+<br><br><br>
+** ... article in progress ... **
+<br><br><br>
 ```python
 def joinTables(list_of_tables):
     '''
@@ -23,3 +23,7 @@ def joinTables(list_of_tables):
     
     return new_table 
 ```
+
+<br><br><br>
+** ... article in progress ... **
+<br><br><br>
