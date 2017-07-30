@@ -13621,10 +13621,10 @@ dtype: float64
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[317]:</div>
+<div class="prompt input_prompt">In&nbsp;[320]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="n">new_table_summary</span> <span class="o">=</span> <span class="n">phyloSummaryOtuTable</span><span class="p">(</span><span class="n">tss_norm</span><span class="p">(</span><span class="n">new_table</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">,:],</span><span class="n">otu_taxa_dict</span><span class="p">)</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">new_table_summary</span> <span class="o">=</span> <span class="n">phyloSummaryOtuTable</span><span class="p">(</span><span class="n">tss_norm</span><span class="p">(</span><span class="n">new_table</span><span class="p">),</span><span class="n">otu_taxa_dict</span><span class="p">)</span>
 <span class="n">new_table_summary</span><span class="p">[</span><span class="s1">&#39;g&#39;</span><span class="p">]</span>
 </pre></div>
 
@@ -13638,7 +13638,7 @@ dtype: float64
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[317]:</div>
+<div class="prompt output_prompt">Out[320]:</div>
 
 
 
@@ -13649,79 +13649,139 @@ dtype: float64
     <tr style="text-align: right;">
       <th></th>
       <th>Number of OTUs</th>
-      <th>Relative abundance</th>
+      <th>mean</th>
+      <th>median</th>
+      <th>count</th>
+      <th>min</th>
+      <th>max</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <th>Streptococcus</th>
+      <td>21</td>
+      <td>0.769837</td>
+      <td>0.96769</td>
+      <td>5</td>
+      <td>0.000221435</td>
+      <td>0.975954</td>
+    </tr>
+    <tr>
       <th>Dorea</th>
       <td>29</td>
+      <td>0.170384</td>
+      <td>0.0270148</td>
+      <td>4</td>
+      <td>0.00205399</td>
       <td>0.795837</td>
     </tr>
     <tr>
       <th></th>
       <td>42</td>
+      <td>0.0508572</td>
+      <td>0.0214626</td>
+      <td>5</td>
+      <td>0.0184628</td>
       <td>0.170283</td>
     </tr>
     <tr>
       <th>[Ruminococcus]</th>
       <td>6</td>
+      <td>0.00224825</td>
+      <td>0.00562063</td>
+      <td>2</td>
+      <td>0.00016952</td>
       <td>0.0110717</td>
     </tr>
     <tr>
-      <th>Bacteroides</th>
-      <td>8</td>
-      <td>0.0104074</td>
-    </tr>
-    <tr>
-      <th>Blautia</th>
-      <td>11</td>
-      <td>0.00531444</td>
+      <th>Veillonella</th>
+      <td>1</td>
+      <td>0.000401365</td>
+      <td>0.00200682</td>
+      <td>1</td>
+      <td>0.00200682</td>
+      <td>0.00200682</td>
     </tr>
     <tr>
       <th>Coprococcus</th>
       <td>4</td>
+      <td>0.000792624</td>
+      <td>0.00198156</td>
+      <td>2</td>
+      <td>0.000198728</td>
       <td>0.00376439</td>
     </tr>
     <tr>
       <th>Bifidobacterium</th>
       <td>2</td>
+      <td>0.000604528</td>
+      <td>0.00151132</td>
+      <td>2</td>
+      <td>0.000586854</td>
       <td>0.00243578</td>
+    </tr>
+    <tr>
+      <th>Lactobacillus</th>
+      <td>1</td>
+      <td>0.000750195</td>
+      <td>0.000995815</td>
+      <td>4</td>
+      <td>0.00016952</td>
+      <td>0.00158983</td>
+    </tr>
+    <tr>
+      <th>Bacteroides</th>
+      <td>8</td>
+      <td>0.00262961</td>
+      <td>0.000847601</td>
+      <td>5</td>
+      <td>0.000293427</td>
+      <td>0.0104074</td>
+    </tr>
+    <tr>
+      <th>Blautia</th>
+      <td>11</td>
+      <td>0.00124198</td>
+      <td>0.000602047</td>
+      <td>3</td>
+      <td>0.000293427</td>
+      <td>0.00531444</td>
     </tr>
     <tr>
       <th>Collinsella</th>
       <td>1</td>
+      <td>8.8574e-05</td>
       <td>0.00044287</td>
-    </tr>
-    <tr>
-      <th>Streptococcus</th>
-      <td>21</td>
-      <td>0.000221435</td>
+      <td>1</td>
+      <td>0.00044287</td>
+      <td>0.00044287</td>
     </tr>
     <tr>
       <th>Roseburia</th>
       <td>2</td>
+      <td>8.40326e-05</td>
+      <td>0.000210082</td>
+      <td>2</td>
+      <td>0.000198728</td>
       <td>0.000221435</td>
     </tr>
     <tr>
       <th>Phascolarctobacterium</th>
       <td>1</td>
-      <td>0</td>
+      <td>4.01365e-05</td>
+      <td>0.000200682</td>
+      <td>1</td>
+      <td>0.000200682</td>
+      <td>0.000200682</td>
     </tr>
     <tr>
       <th>Parabacteroides</th>
       <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>Lactobacillus</th>
+      <td>4.01365e-05</td>
+      <td>0.000200682</td>
       <td>1</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>Veillonella</th>
-      <td>1</td>
-      <td>0</td>
+      <td>0.000200682</td>
+      <td>0.000200682</td>
     </tr>
   </tbody>
 </table>
@@ -13733,6 +13793,15 @@ dtype: float64
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Example with results by passing of a single sample in a table.</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
