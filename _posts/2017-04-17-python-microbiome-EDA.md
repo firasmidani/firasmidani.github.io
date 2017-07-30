@@ -6,4 +6,6 @@ use_math: true
 comments: true
 ---
 
-{% jupyter_notebook /2017_04_10_seq_analysis_post.ipynb %}
+{::nomarkdown}
+{% jupyter_notebook 2017_04_10_seq_analysis_post.ipynb %}
+{:/nomarkdown}
