@@ -19,7 +19,7 @@ Here, I am sharing some of the primary functions that make exploration and analy
 |`subsetTableByMetadata`|returns a subset of the input OTU table based on metadata parameters of your choice|
 |`summarizeTable`|returns a statistical summary of the distribution of OTU abundance across samples in the table|
 |`phyloSummaryOtuTableSingle`|returns a taxonomy/phylogenic summary statistics of the OTUs comprising sample(s<a></a>) in a table|
-|`read_pcoa`|reads the `principal_coordinates.py` output by QIIME and extracts coordinates (eigenvectors/values<a></a>) and vairances explained|
+|`read_pcoa`|reads the `principal_coordinates.py` output by QIIME and extracts coordinates (eigenvectors/values<a></a>) and variances explained|
 |`pcoa_figure`|plots a PCoA figure with user-defined subset of data and figure aesthetics|
 
 
