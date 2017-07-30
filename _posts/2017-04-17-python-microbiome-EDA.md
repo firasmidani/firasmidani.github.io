@@ -9,14 +9,17 @@ Over the past couple of years, I have been repeatedly munging through microbiome
 
 Here, I am sharing some of the primary functions that make exploration and analysis of microbiome data simpler.
 
-* `read_biom` reads a `BIOM` file and returns an OTU table and a seperate OTU to taxonomy mapping
-* `otu_taxa_dict` breaks down the one-to-one OTU-to-taxonmy mapping to all taxonomic levels (phylum through species<a></a>)
-* `tss_norm` converts the absolute abundances in an OTU table to relative abundances
-* `subsetTableBySampleIDs` reutrns a susbet of the input OTU table based on the sample IDs of your choice
-* `subsetTableByMetadata` returns a subset of the input OTU table based on metadata parameters of your choice
-* `summarizeTable` returns a statistical summary of the distribution of OTU abundance across samples in the table
-* `phyloSummaryOtuTableSingle` returns a taxonomy/phylogenic summary statistics of the OTUs comprising samples in a table
-* `read_pcoa` reads the `principal_coordinates.py` output by QIIME and extracts coordinates (eigenvectors/values<a></a>) and vairances explained
-* `pcoa_figure` plots a PCoA figure with user-defined subset of data and figure aesthetics
+|Function|Description|
+|:---|:---|
+|`read_biom`|reads a `BIOM` file and returns an OTU table and a seperate OTU to taxonomy mapping|
+|`otu_taxa_dict`|breaks down the one-to-one OTU-to-taxonmy mapping to all taxonomic levels (phylum through species<a></a>)|
+|`tss_norm`|converts the absolute abundances in an OTU table to relative abundances|
+|`subsetTableBySampleIDs`|reutrns a susbet of the input OTU table based on the sample IDs of your choice|
+|`subsetTableByMetadata`|returns a subset of the input OTU table based on metadata parameters of your choice|
+|`summarizeTable`|returns a statistical summary of the distribution of OTU abundance across samples in the table|
+|`phyloSummaryOtuTableSingle`|returns a taxonomy/phylogenic summary statistics of the OTUs comprising samples in a table|
+|`read_pcoa`|reads the `principal_coordinates.py` output by QIIME and extracts coordinates (eigenvectors/values<a></a>) and vairances explained|
+|`pcoa_figure`|plots a PCoA figure with user-defined subset of data and figure aesthetics|
+
 
 Here is a tutorial of these functions in a [jupyter notebook](/assets/ipynbs/2017_04_10_seq_analysis_post.html) and you can find the underyling functions in (the microbiome-routines repository)[https://github.com/firasmidani/microbiome_routines].
