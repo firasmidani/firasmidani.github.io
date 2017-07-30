@@ -16,6 +16,3 @@ syntax_highlighter: Pygments
 # just leave someone empty to disable it
 google_analytics:
 disqus_shortname:
-gems:
-  - jekyll-seo-tag
-  - jekyll-jupyter-notebook
