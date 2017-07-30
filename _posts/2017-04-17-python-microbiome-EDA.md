@@ -23,6 +23,6 @@ Here, I am sharing some of the primary functions that make exploration and analy
 |`pcoa_figure`|plots a PCoA figure with user-defined subset of data and figure aesthetics|
 
 
-Here is a tutorial of these functions in a [jupyter notebook](/assets/ipynbs/2017_04_10_seq_analysis_post.html) and you can find the underyling functions in [firasmidani/microbiome-routines repository](https://github.com/firasmidani/microbiome_routines).
+Here is a tutorial of these functions in a [jupyter notebook](/assets/ipynbs/2017_04_10_seq_analysis_post.html) and you can find the underyling functions in [firasmidani/microbiome-routines](https://github.com/firasmidani/microbiome_routines) repository.
 <br><br><br>
 ![footer_banner](/assets/img/mosaic_footer.png)
