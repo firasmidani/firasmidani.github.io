@@ -18,3 +18,4 @@ google_analytics:
 disqus_shortname:
 gems:
   - jekyll-seo-tag
+  - jekyll-jupyter-notebook
