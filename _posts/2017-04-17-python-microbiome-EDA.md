@@ -3,7 +3,7 @@ layout: post
 title: "Python functions for microbiome exploratory data analysis."
 date: 2017-04-17
 use_math: true
-use_comments: true
+comments: true
 ---
 
 Over the past couple of years, I have been repeatedly munging through microbiome data and also repeatedly re-writing the same code to analyze similar datasets. On more occasions, I have been asked by peers and colleagues to share bits of the code that I have written. Eventually, I forced myself to create a central repository for code routinely used by me to analyze 16S amplicon sequencing data sets. In the David lab, we run our sequencing results through the [QIIME](http://qiime.org) pipeleine and accordingly most of the data analysis begins with a [BIOM](http://biom-format.org) file.
