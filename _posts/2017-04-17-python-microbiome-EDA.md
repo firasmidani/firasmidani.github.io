@@ -12,7 +12,7 @@ Here, I am sharing some of the primary functions that make exploration and analy
 * `read_biom` reads a `BIOM` file and returns an OTU table and a seperate OTU to taxonomy mapping
 * `otu_taxa_dict` breaks down the one-to-one OTU-to-taxonmy mapping to all taxonomic levels (phylum through species<a></a>)
 * `tss_norm` converts the absolute abundances in an OTU table to relative abundances
-* `subsetTableBySampleIDs` reutnrs a susbet of the input OTU table based on the sample IDs of your choice
+* `subsetTableBySampleIDs` reutrns a susbet of the input OTU table based on the sample IDs of your choice
 * `subsetTableByMetadata` returns a subset of the input OTU table based on metadata parameters of your choice
 * `summarizeTable` returns a statistical summary of the distribution of OTU abundance across samples in the table
 * `phyloSummaryOtuTableSingle` returns a taxonomy/phylogenic summary statistics of the OTUs comprising samples in a table
