@@ -37,6 +37,8 @@ blockquote {
     font-style: italic;
     padding-left: 1rem;
     border-left: 3px solid $border-color;
+    width:auto;
+    display:table
 }
 img {
     max-width: 100%;
