@@ -3,6 +3,7 @@ layout: post
 title: "How to thoughtfully share scientific articles with colleagues."
 date: 2017-07-24
 use_math: true
+comments: true
 ---
 
 Scientific research moves at a very fast pace. It is not surprising why most scientists suffer from information overload. We often have a desire to stay on top of broad areas of interest which leads to endless queues of papers to read. This is both a product of a large scientific talent working on interesting ideas and an expansive publishing powerhouse that churns out hundreds of papers daily. So, how can you effectively stay on top of the literature? 
