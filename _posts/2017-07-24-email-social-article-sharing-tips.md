@@ -43,7 +43,8 @@ Now, I can paste the above in a new draft in my email client, use its native too
 
 For papers that I read in depth, I often include highlights of the document directly into my message as text. I can not give a good advice on how best to do this. There are many different applications for annotating articels and they all differ in how they export annotations.  For example, [Walton Jones](http://jones.kaist.edu/notebook/2012/09/an-academic-notetaking-workflow.html) demonstrates how to interface with `Skim`  using `AppleScript` to export document annotations into formatted text. I personally have been using `Diigo`, a web-based boomkarking tool that allows for in-browser highlights and annotations of web articles and PDFs.  In my web interface, I can access the annotations then simply copy and paste them into my outgoing message. Here is what the final product would look like in an email message. 
 
-![@sharing_example | center](/assets/img/midani_sharing_example.png)
+![sharing_example](/assets/img/midani_sharing_example.png)
+
 
 I have been sharing articles with colleagues and friends for many years using different but crude approaches. However, **I have adopted this apporach in 2017 [^update], and I have noticed that the recipients are more likely to respond with feedback and comments and I am more likely to absorb and contextualize articles that I save in my library **. I will admit that I occasionally do not follow these suggestions but I make a good effort to do so and it pays off in very marginal ways and often in the long-term. 
 
