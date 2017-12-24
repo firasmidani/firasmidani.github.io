@@ -52,5 +52,3 @@ I have been sharing articles with colleagues and friends for many years using di
 [^copyitem]:  In `Zotero`,  go to `Preferences`. Click on `Advanced` section then `Shortcuts` tab. Choose your keyboard shortcut for `Copy Selected Items to Clipboard`. 
 
 [^update]:  This post was re-structured and updated on December 21, 2017.
-<br><br><br>
-![footer_banner](/assets/img/mosaic_footer.png)
