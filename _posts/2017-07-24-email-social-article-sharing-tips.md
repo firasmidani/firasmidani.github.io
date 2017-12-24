@@ -50,9 +50,9 @@ For papers that I read in depth, I often include highlights of the document dire
 ----------
 
 I have been sharing articles with colleagues and friends for many years using different but crude approaches. However, **I have adopted this apporach in 2017 [^update], and I have noticed that the recipients are more likely to respond with feedback and comments and I am more likely to absorb and contextualize articles that I save in my library **. I will admit that I occasionally do not follow these suggestions but I make a good effort to do so and it pays off in very marginal ways and often in the long-term. 
--<br><br><br>
--![footer_banner](/assets/img/mosaic_footer.png)
--
+<br><br><br>
+![footer_banner](/assets/img/mosaic_footer.png)
+
 [^copyitem]:  In `Zotero`,  go to `Preferences`. Click on `Advanced` section then `Shortcuts` tab. Choose your keyboard shortcut for `Copy Selected Items to Clipboard`. 
 
 [^update]:  This post was re-structured and updated on December 21, 2017.
