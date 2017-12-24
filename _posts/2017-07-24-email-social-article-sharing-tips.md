@@ -32,7 +32,7 @@ Earlier in 2017, I began implementing some of those tricks when sharing work wit
 
 All you need to do this is your favorite reference manager. Ideally, it will have a browser plug-in that allows you to save a research article in your library with a single click on your broswer. I personally use `Zotero` for which I set-up a keyboard shortcut to quickly copy description of a item in my library into my Clipboard [^copyitem]. However, your reference manager would probably copy an item using default citation style. If I were to copy the citation with the American Anthropological Association style, you would get something like this. 
 
->Mallon, Cyrus A., Franck Poly, Xavier Le Roux, et al.<br/>2015 Resource Pulses Can Alleviate the Biodiversity–invasion Relationship in Soil Microbial Communities. Ecology 96(4): 915–926.
+>Mallon, Cyrus A., Franck Poly, Xavier Le Roux, et al.<br/>2015 Resource Pulses Can Alleviate the Biodiversity–invasion Relationship in Soil Microbial Communities. Ecology 96(4<a><a/>): 915–926.
 
 This is definitely a lot better than a URL. However, **you can easily create and adopt a custom-made citation style that will allow you to convey more information about the article**. To do this, I used the citation for the American Anthropological Association as a template and modified it to highlight the first two authors, last author, title, journal, web link, and abstract in an aesthetically pleasing format. My new citation style would now provide the following with a simple click.
 
