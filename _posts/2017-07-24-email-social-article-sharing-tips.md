@@ -24,7 +24,7 @@ While we cannot control how scientific research is shared with us, we can be bet
 
 The overall result of this strategy is that a reader understands the gist and nuances of a paper in a handful of clicks and a couple of minutes. In return, Eric gets to scan the literature, record it, and intelligently retain it for his own personal use. 
 
-Earlier in 2017, I began implementing some of those tricks when sharing work with colleagues. To make this process more streamlined, I invested some upfront effort to create a pipeline that makes this possible. Whenever I come across interesting work that I would like to save and share with others, I have three basic (and obvious) steps to follow: 
+Earlier in 2017, I began implementing some of those tricks when sharing work with colleagues. To make this process more streamlined, I invested some upfront effort to create a pipeline that makes this possible. Whenever I come across interesting work that I would like to save and share with others, I have three basic (and obvious<a></a>) steps to follow: 
 
 1. add article to citation manager
 2. copy detailed description (and optionally annotations) of work 
