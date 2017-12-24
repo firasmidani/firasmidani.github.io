@@ -27,7 +27,7 @@ The overall result of this strategy is that a reader understands the gist and nu
 Earlier in 2017, I began implementing some of those tricks when sharing work with colleagues. To make this process more streamlined, I invested some upfront effort to create a pipeline that makes this possible. Whenever I come across interesting work that I would like to save and share with others, I have three basic (and obvious<a></a>) steps to follow: 
 
 1. add article to citation manager
-2. copy detailed description (and optionally annotations) of work 
+2. copy detailed description (and optionally annotations<a><a/>) of work 
 3. paste highlights of work in outgoing message
 
 All you need to do this is your favorite reference manager. Ideally, it will have a browser plug-in that allows you to save a research article in your library with a single click on your broswer. I personally use `Zotero` for which I set-up a keyboard shortcut to quickly copy description of a item in my library into my Clipboard [^copyitem]. However, your reference manager would probably copy an item using default citation style. If I were to copy the citation with the American Anthropological Association style, you would get something like this. 
