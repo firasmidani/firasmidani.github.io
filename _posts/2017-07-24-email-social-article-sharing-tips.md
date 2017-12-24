@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to thoughtfully share science articles with colleagues."
+title: "How to thoughtfully share scientific articles with colleagues."
 date: 2017-07-24
 use_math: true
 ---
