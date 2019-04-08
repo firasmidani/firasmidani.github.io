@@ -3,7 +3,7 @@ layout: post
 title: "Ultrametricity and additivity criteria for phylogenetic trees: Why do they matter?"
 date: 2016-11-16
 use_math: true
-comments: true
+comments: False
 ---
 
 In the Fall of 2016, I was a graduate TA for an introductory course on computational genomics. One of the rewards of teaching the class was re-learning some of the material such that I can explain it in an intuitive and clear fashion to the confused students \(this is called the <a href="http://ideas.time.com/2011/11/30/the-protege-effect/">Protége Effect</a>). One of my most memorable example of this phenomenon was the confusion amongst students about the ultrametricity and additivity criterion for phylognetic trees. Most students were capable of understanding and regurgitating the mathematics behind these criteria and how they can be applied to building a tree, but most failed at explaining its importance. Here is how I presented it to my students. This may not be a completely accurate explanation but it was the clearest explanation that students could digest iniitally
