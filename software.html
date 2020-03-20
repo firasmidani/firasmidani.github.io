@@ -1,13 +1,13 @@
 ---
 layout: default
-title: softwares
+title: software
 ---
 
 <br>
 <div id="home">
 
     <ul class="posts">
-    {% for software in site.softwares %}
+    {% for software in site.software %}
 	<li>
 		<span>{{ software.date | date: "%F" }} &raquo;</span>  
 	        <a style="font-size:1em;" href="{{ software.url }}">{{ software.title }}</a>
