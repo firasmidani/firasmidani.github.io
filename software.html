@@ -1,0 +1,19 @@
+---
+layout: default
+title: posts
+---
+
+<br>
+<div id="home">
+
+    <ul class="posts">
+    {% for software in site.softwares %}
+	<li>
+		<span>{{ post.software | date: "%F" }} &raquo;</span>  
+	        <a style="font-size:1em;" href="{{ post.url }}">{{ software.title }}</a>
+	</li>
+    {% endfor %}
+	  
+  </ul>
+</div>
+<br>
