@@ -1,15 +1,15 @@
 ---
 layout: default
-title: posts
+title: softwares
 ---
 
 <br>
 <div id="home">
 
     <ul class="posts">
-    {% for software in site.softwares %}
+    {% for post in site.posts %}
 	<li>
-		<span>{{ post.software | date: "%F" }} &raquo;</span>  
+		<span>{{ post.date | date: "%F" }} &raquo;</span>  
 	        <a style="font-size:1em;" href="{{ software.url }}">{{ software.title }}</a>
 	</li>
     {% endfor %}
