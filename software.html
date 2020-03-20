@@ -10,7 +10,7 @@ title: posts
     {% for software in site.softwares %}
 	<li>
 		<span>{{ post.software | date: "%F" }} &raquo;</span>  
-	        <a style="font-size:1em;" href="{{ post.url }}">{{ software.title }}</a>
+	        <a style="font-size:1em;" href="{{ software.url }}">{{ software.title }}</a>
 	</li>
     {% endfor %}
 	  
