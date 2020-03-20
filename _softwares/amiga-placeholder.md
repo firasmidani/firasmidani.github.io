@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: software
 title: "AMiGA: Analysis of Microbial Growth Assays"
 date: 2020-03-20
 use_math: true
