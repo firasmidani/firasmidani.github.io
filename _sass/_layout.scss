@@ -56,6 +56,19 @@ main {
         font-size: $small-font-size;
     }
 }
+.software {
+    position: relative;
+    .software-header {
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .software-meta {
+        margin: 0;
+        text-align: left;
+        color: $meta-color;
+        font-size: $small-font-size;
+    }
+}
 @media screen and (max-width: 48rem) {
     .site-header {
         .site-title,
