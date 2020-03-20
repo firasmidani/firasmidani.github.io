@@ -7,9 +7,9 @@ title: softwares
 <div id="home">
 
     <ul class="posts">
-    {% for post in site.posts %}
+    {% for software in site.softwaress %}
 	<li>
-		<span>{{ post.date | date: "%F" }} &raquo;</span>  
+		<span>{{ software.date | date: "%F" }} &raquo;</span>  
 	        <a style="font-size:1em;" href="{{ software.url }}">{{ software.title }}</a>
 	</li>
     {% endfor %}
