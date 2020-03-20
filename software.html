@@ -6,11 +6,11 @@ title: software
 <br>
 <div id="home">
 
-    <ul class="post">
-    {% for software in site.software %}
+    <ul class="posts">
+    {% for post in site.posts %}
 	<li>
-		<span>{{ software.date | date: "%F" }} &raquo;</span>  
-	        <a style="font-size:1em;" href="{{ software.url }}">{{ software.title }}</a>
+		<span>{{ post.date | date: "%F" }} &raquo;</span>  
+	        <a style="font-size:1em;" href="{{ post.url }}">{{ post.title }}</a>
 	</li>
     {% endfor %}
 	  
