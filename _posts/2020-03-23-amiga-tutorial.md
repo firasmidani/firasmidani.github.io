@@ -14,7 +14,7 @@ AMiGA is a python-based program for high-throughput analyis of microbial growth 
 
 **Why use AMiGA?** 
 
-Many micorbial growth curves do not followed standard logistic or sigmoidal shapes. Gaussian Processes have recently been shown as a useful model for fitting these growth curves and inferring growth parameters (Swain et al. 2016, Tonner et al. 2017<a></a>). AMiGA is the first program to analyze microbial growth data using GP inference in a user-friendly fashion. In order to plot or analyze the data, users simply interact with AMiGA using the command line by pointing to the file of interest. User can pass additional arguments or file or define program-specific parameters for more sophistiated analysis. 
+Many micorbial growth curves do not followed standard logistic or sigmoidal shapes. Gaussian Processes have recently been shown as a useful model for fitting these growth curves and inferring growth parameters (1,2<a></a>). AMiGA is the first program to analyze microbial growth data using GP inference in a user-friendly fashion. In order to plot or analyze the data, users simply interact with AMiGA using the command line by pointing to the file of interest. User can pass additional arguments or file or define program-specific parameters for more sophistiated analysis. 
 
 **What can you do with AMiGA?** 
 
@@ -25,10 +25,18 @@ AMiGA can do the following:
 4. Detect diauxic shifts and describe the time at which these shifts occur. 
 5. Perform hypothesis-driven statistical testing of the differences in microbial growth under different experimental conditions. 
 
+## Installation
+
+**\[REQUIRED\] Download repository/code
 
 ```zsh
-python amiga.py -i /Uers/firasmidani/Downloads/test/
+git clone https://github.com/firasmidani/amiga.git
 ```
+
+**\[Required\] Python 
+
+* If you are a Max or Unix useer, your machine will have Python pre-installed. You can proceed to the following section.
+* If you are a Windows user and have not previuosly worked with Python, I recommend a Python distribution such as Anaconda. See this useful guide on installing Python. If you run into 
 
 **References**
 
