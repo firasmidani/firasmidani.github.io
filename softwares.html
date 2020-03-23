@@ -12,6 +12,7 @@ title: softwares
       test . test . test . test
 	<li>
 		<span>{{ software.date | date: "%F" }} &raquo;</span>
+    	        <a style="font-size:1em;" href="{{ software.url }}">{{ software.title }}</a>
 	</li>
     {% endfor %}
 
