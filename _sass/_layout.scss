@@ -56,17 +56,20 @@ main {
         font-size: $small-font-size;
     }
 }
-.software {
-    position: relative;
-    .software-header {
-        text-align: left;
-        margin-bottom: 0;
-    }
-    .software-meta {
-        margin: 0;
-        text-align: left;
-        color: $meta-color;
-        font-size: $small-font-size;
+.softwares {
+    list-style: none;
+    padding: 0;
+    > li {
+        line-height: 1.75;
+        span {
+            color: $meta-color;
+            margin-right: 1.5rem;
+            font-size: $small-font-size;
+        }
+        a {
+            color: $text-color;
+            text-decoration: none;
+        }
     }
 }
 @media screen and (max-width: 48rem) {
