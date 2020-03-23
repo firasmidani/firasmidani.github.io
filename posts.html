@@ -6,14 +6,14 @@ title: posts
 <br>
 <div id="home">
 
-    <ul class="posts">
-    {% for post in site.posts %}
+  <ul class="posts">
+    {% for post in site.posts_archive %}
 	<li>
-		<span>{{ post.date | date: "%F" }} &raquo;</span>  
+		<span>{{ post.date | date: "%F" }} &raquo;</span>
 	        <a style="font-size:1em;" href="{{ post.url }}">{{ post.title }}</a>
 	</li>
     {% endfor %}
-	  
+
   </ul>
 </div>
 <br>
