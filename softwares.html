@@ -1,0 +1,19 @@
+---
+layout: default
+title: softwares
+---
+
+<br>
+<div id="home">
+
+    <ul class="software">
+    	test . test . test
+    {% for software in site.softwares %}
+	<li>
+		<span>{{ software.date | date: "%F" }} &raquo;</span>  
+	</li>
+    {% endfor %}
+	  
+  </ul>
+</div>
+<br>
