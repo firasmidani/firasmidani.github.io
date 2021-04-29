@@ -6,7 +6,7 @@ use_math: true
 comments: False
 ---
 
-Check out my new software on analyzing microbial growth curves. At the <a href="https://twitter.com/BrittonTML">@BrittonTML</a>, we had a pretty good system for analyzing microbial growth especially on Biolog PM plates, but we focused on a single metric which missed some intereting growth dynamics. 
+Check out my new software AMiGA (see <a href="https://github.com/firasmidani/amiga">code</a> and <a href="https://firasmidani.github.io/amiga">documentation</a>) for analyzing microbial growth curves. At the <a href="https://twitter.com/BrittonTML">@BrittonTML</a>, we had a pretty good system for analyzing microbial growth especially on Biolog PM plates, but we focused on a single metric which missed some intereting growth dynamics. 
 
 I started with published tools and writing my own code to fit growth curves using classical models like Gompertz but quickly realized that clinical isoaltes including *Clostridioides difficile* are quite finicky and have varying shapes and growth dynamics. 
 
