@@ -114,10 +114,12 @@ and that $\log_{b}{(x^d)}=d\log_{b}{(x)}$ such that
 We can easily take the derivative of the natural logarithm of $A(t)$
 
 $$
+\begin{equation}
 \begin{split}
 \frac{d}{dt}\ln{A(t)} & = \frac{d}{dt}\ln{A(0)} + \frac{d}{dt}\left(\frac{\ln{2}}{\tau}\right)t \\
 \frac{d}{dt}\ln{A(t)} & = \left(\frac{\ln{2}}{\tau}\right)  \\
 \end{split}
+\begin{equation}
 $$
 
 As you can see the natural logarithm of absorbance is now a function of
@@ -193,9 +195,10 @@ specific growth rate (during exponential growth<a></a>) as $~0.16$ (Figure
 1D<a></a>). The true
 growth rate in the logistic model (Equation 14<a></a>) was set to $0.15$.
 
-<p align="center">
 ![Simulation of logistic growth and inference of its growth rate](/assets/img/midani-bacterial-growth-primer.png){:height="400px" width="500px" .center}
-</p>
+
+<img src="/assets/img/midani-bacterial-growth-primer.png" alt="Simulation of logistic growth and inference of its growth ratee" width="500" height="400">
+
 
 [^1]: As an aside, the linear relationship of absorbance to population
     size (or culture density<a></a>) only holds for an instrument-specific and
