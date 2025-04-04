@@ -119,7 +119,7 @@ $$
 \frac{d}{dt}\ln{A(t)} & = \frac{d}{dt}\ln{A(0)} + \frac{d}{dt}\left(\frac{\ln{2}}{\tau}\right)t \\
 \frac{d}{dt}\ln{A(t)} & = \left(\frac{\ln{2}}{\tau}\right)  \\
 \end{split}
-\begin{equation}
+\end{equation}
 $$
 
 As you can see the natural logarithm of absorbance is now a function of
@@ -197,7 +197,9 @@ growth rate in the logistic model (Equation 14<a></a>) was set to $0.15$.
 
 ![Simulation of logistic growth and inference of its growth rate](/assets/img/midani-bacterial-growth-primer.png){:height="400px" width="500px" .center}
 
+<div style="text-align: center;">
 <img src="/assets/img/midani-bacterial-growth-primer.png" alt="Simulation of logistic growth and inference of its growth ratee" width="500" height="400">
+</div>
 
 
 [^1]: As an aside, the linear relationship of absorbance to population
