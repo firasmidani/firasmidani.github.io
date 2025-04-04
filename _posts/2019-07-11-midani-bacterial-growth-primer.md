@@ -115,7 +115,7 @@ We can easily take the derivative of the natural logarithm of $A(t)$
 
 
 As you can see the natural logarithm of absorbance is now a function of
-time $t$ (Equation 9) . This relationship is akin to the didactically
+time $t$ (Equation 12<a></a>) . This relationship is akin to the didactically
 classical form of a linear function $y=b+mx$ from basic algebra, where
 $y$ is the dependent variable, $x$ is the independent variable, $b$ is
 the y-intercept, and $m$ is the slope.
@@ -124,7 +124,7 @@ the y-intercept, and $m$ is the slope.
 m = \frac{d}{dt}\ln{A(t)} = \left(\frac{\ln{2}}{\tau}\right)
 \end{equation}
 
-We refer to $m$ as the maximum specific growth rate[^2][^3] . Because we
+We refer to $m$ as the maximum specific growth rate[^2] . Because we
 assumed that growth factor is two (i.e., bacteria reproduce by doubling<a></a>),
 the inside of the natural logarithm is two (the base of exponent in
 Equations 3 and 8<a></a>). Further, once we
@@ -153,7 +153,7 @@ exponential function's derivative is itself"
 $\frac{d}{dt}e^{t}=e^{t}\log_{e}{e}=e^{t}$. Still, any other base
 larger than 1 can be used. Data should be transformed with the logarithm
 of the selected base, maximum specific growth rate can then be computed,
-and doubling time inferred from Equation 13.
+and doubling time inferred from Equation 17.
 
 In the case of non-parametric Gaussian Process Regression of growth
 curve data, the maximum *a posteriori* (MAP<a></a>) estimate of the derivative
@@ -169,7 +169,7 @@ expression,
 A(t) = \frac{K}{1+\left(\frac{K-N(0)}{N(0)}\right)e^{-rt}}
 \end{equation}
 
-such that doubling time can be computed with Equation 12 directly with the estimate of $r$ (i.e. $m$<a></a>);
+such that doubling time can be computed with Equation 16 directly with the estimate of $r$ or $m$;
 in these cases, because the base is $e$, the numerator for $\tau$ is the
 natural logarithm of two.
 
@@ -185,7 +185,7 @@ growth which occurs after the population exits exponential growth (Figure 1C<a><
 derivative of the logarithm-transformed $y(t)$ captures the maximum
 specific growth rate (during exponential growth<a></a>) as $~0.16$ (Figure
 1D<a></a>). The true
-growth rate in the logistic model (Equation 14<a></a>) was set to $0.15$.
+growth rate in the logistic model (Equation 18<a></a>) was set to $0.15$.
 
 <div style="text-align: center;">
 <img src="/assets/img/midani-bacterial-growth-primer.png" alt="Simulation of logistic growth and inference of its growth ratee" width="500" height="400">
@@ -199,11 +199,9 @@ growth rate in the logistic model (Equation 14<a></a>) was set to $0.15$.
     assumed to be linear. This linearity range can be inferred with a
     series of calibration of experiments
 
-[^2]: See Zwietering et *al.*. Modeling of the Bacterial Growth Curve.
-    *Applied and Environmental Microbiology*. 1990
-
-[^3]: This value has many names that are used interchangeably; another
-    example is the intrinsic growth rate, see Sprouffke and Wanger.
+[^2]: This value has many names that are used interchangeably; another
+    example is the intrinsic growth rate. See See Zwietering et *al.*. Modeling of the Bacterial Growth Curve.
+    *Applied and Environmental Microbiology*. 1990 and Sprouffke and Wanger.
     Growthcurver: an R package for obtaining interpretable metrics from
     microbial growth curves *BMC Bioinformatics*. 2016
     
