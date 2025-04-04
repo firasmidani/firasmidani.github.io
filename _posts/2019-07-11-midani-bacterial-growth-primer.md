@@ -150,10 +150,10 @@ expression
 where $b$ is the base of the logarithm used for simplifying the model,
 $g$ is the growth factor, and $m$ is the maximum specific growth rate.
 The $e=2.71828$ constant (base of natural logarithm<a></a>) is often used
-because it has interesting mathematical properties (e.g., it is the
+because it has interesting mathematical properties. For example, it is the
 "unique base for which the constant of proportionality is 1, so that the
 exponential function's derivative is itself"
-$\frac{d}{dt}e^{t}=e^{t}\log_{e}{e}=e^{t}$<a></a>). Still, any other base
+$\frac{d}{dt}e^{t}=e^{t}\log_{e}{e}=e^{t}$. Still, any other base
 larger than 1 can be used. Data should be transformed with the logarithm
 of the selected base, maximum specific growth rate can then be computed,
 and doubling time inferred from Equation 13.
@@ -162,8 +162,8 @@ In the case of non-parametric Gaussian Process Regression of growth
 curve data, the maximum *a posteriori* (MAP<a></a>) estimate of the derivative
 of the logarithm-transformed is $m$. Growth curves analyzed with
 classical models (e.g., logistic or gompertz<a></a>) directly capture a
-parameter that corresponds to the maximum specific growth rate (often
-referred to as $r$<a></a>) which is also assumed to be the slope of growth
+parameter that corresponds to the maximum specific growth rate, often
+referred to as $r$ which is also assumed to be the slope of growth
 during exponential phase. These models inherently account for
 exponential growth by including $e^{-rt}$ in their mathematical
 expression,
@@ -184,13 +184,13 @@ starts to slow down leading to linear increase in OD around $t=40$
 eventually plateauing at $y=2$. The logarithm transformation of $y(t)$
 shows the exponential growth as linear growth in log-space (Figure 1B<a></a>). The
 derivative of untransformed $y(t)$ captures the maximum linear phase of
-growth which occurs after the population exits exponential growth (Figure 1C). However, the
+growth which occurs after the population exits exponential growth (Figure 1C<a></a>). However, the
 derivative of the logarithm-transformed $y(t)$ captures the maximum
 specific growth rate (during exponential growth<a></a>) as $~0.16$ (Figure
 1D<a></a>). The true
 growth rate in the logistic model (Equation 14<a></a>) was set to $0.15$.
 
-![Simulation of logistic growth and inference of its growth rate](/assets/img/midani-bacterial-growth-primer.png){:height="200px" width="250px" .center}
+![Simulation of logistic growth and inference of its growth rate](/assets/img/midani-bacterial-growth-primer.png){:height="400px" width="500px" .center}
 
 [^1]: As an aside, the linear relationship of absorbance to population
     size (or culture density<a></a>) only holds for an instrument-specific and
