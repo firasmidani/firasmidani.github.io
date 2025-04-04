@@ -103,16 +103,15 @@ A(t) = A(0) \times 2^{t/ \tau}
 and that $\log_{b}{(x^d)}=d\log_{b}{(x)}$ such that
 
 
-$$\ln{A(t)} = \ln{\left(A(0)\times2^{t/ \tau}\right)}$$
-$$\ln{A(t)} = \ln{A(0)} + \ln{(2^{t/ \tau})}$$
-$$\ln{A(t)} = \ln{A(0)} + \frac{t}{\tau}\ln(2)$$
+\begin{equation}\ln{A(t)} = \ln{\left(A(0)\times2^{t/ \tau}\right)}\end{equation}
+\begin{equation}\ln{A(t)} = \ln{A(0)} + \ln{(2^{t/ \tau})}\end{equation}
+\begin{equation}\ln{A(t)} = \ln{A(0)} + \frac{t}{\tau}\ln(2)\end{equation}
 \begin{equation}\ln{A(t)} = \ln{A(0)} + \left(\frac{\ln{2}}{\tau}\right)t\end{equation}
 
 We can easily take the derivative of the natural logarithm of $A(t)$
 
-$$\frac{d}{dt}\ln{A(t)} = \frac{d}{dt}\ln{A(0)} + \frac{d}{dt}\left(\frac{\ln{2}}{\tau}\right)t$$
+\begin{equation}\frac{d}{dt}\ln{A(t)} = \frac{d}{dt}\ln{A(0)} + \frac{d}{dt}\left(\frac{\ln{2}}{\tau}\right)t\end{equation}
 \begin{equation}\frac{d}{dt}\ln{A(t)} = \left(\frac{\ln{2}}{\tau}\right)\end{equation}
-
 
 
 As you can see the natural logarithm of absorbance is now a function of
