@@ -111,12 +111,12 @@ and that $\log_{b}{(x^d)}=d\log_{b}{(x)}$ such that
 
 We can easily take the derivative of the natural logarithm of $A(t)$
 
-```math
-\begin{equation}\begin{split}
+$$
+\begin{split}
 \frac{d}{dt}\ln{A(t)} & = \frac{d}{dt}\ln{A(0)} + \frac{d}{dt}\left(\frac{\ln{2}}{\tau}\right)t \\
 \frac{d}{dt}\ln{A(t)} & = \left(\frac{\ln{2}}{\tau}\right)  \\
-\end{split}\end{equation}
-```
+\end{split}
+$$
 
 As you can see the natural logarithm of absorbance is now a function of
 time $t$ (Equation 9) . This relationship is akin to the didactically
