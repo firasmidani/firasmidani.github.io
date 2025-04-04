@@ -200,7 +200,7 @@ growth rate in the logistic model (Equation 18<a></a>) was set to $0.15$.
     series of calibration of experiments
 
 [^2]: This value has many names that are used interchangeably; another
-    example is the intrinsic growth rate. See See Zwietering et *al.*. Modeling of the Bacterial Growth Curve.
+    example is the intrinsic growth rate. See Zwietering et *al.*. Modeling of the Bacterial Growth Curve.
     *Applied and Environmental Microbiology*. 1990 and Sprouffke and Wanger.
     Growthcurver: an R package for obtaining interpretable metrics from
     microbial growth curves *BMC Bioinformatics*. 2016
