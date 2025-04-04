@@ -207,4 +207,5 @@ growth rate in the logistic model (Equation 14<a></a>) was set to $0.15$.
     Growthcurver: an R package for obtaining interpretable metrics from
     microbial growth curves *BMC Bioinformatics*. 2016
     
-    
+<br><br><br>
+![footer_banner](/assets/img/mosaic_footer.png)
