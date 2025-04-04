@@ -35,7 +35,7 @@ N(i) = N(0) \times 2^i
 \end{equation}
 
 The most common method for measuring bacterial growth is
-spectrophotometry, where the absorbance or optical density (OD) of a
+spectrophotometry, where the absorbance or optical density \(OD\) of a
 bacterial culture is proportional to population size[^1] and absorbance
 is measured over time. Therefore, we can model absorbance as a function
 of microbial population size.
@@ -45,8 +45,8 @@ A(t) \propto N(i)
 \end{equation}
 
 Because we are interested in modelling the absorbance as a function of
-time, we need to properly substitute the $i$ exponent (number of
-generations) with a corresponding function of time.
+time, we need to properly substitute the $i$ exponent \(number of
+generations\) with a corresponding function of time.
 
 \begin{equation}
 n = \frac{t}{\tau}
@@ -64,8 +64,8 @@ A(t) = A(0) \times 2^{t/ \tau}
 By measuring absorbance at multiple intervals of time, we can capture a
 bacterial growth curve and we are primarily interested in capturing the
 maximum growth rate of the population during exponential growth phase.
-The derivative of our growth curve (i.e. absorbance) at time $t$ when
-bacteria are growing fastest (curve is steepest), should give us the
+The derivative of our growth curve \(i.e. absorbance\) at time $t$ when
+bacteria are growing fastest \(curve is steepest\), should give us the
 maximum population growth rate.
 
 \begin{equation}
@@ -75,9 +75,9 @@ maximum population growth rate.
 \propto2^{t/\tau}
 \end{equation}
 
-Here, we see that the derivative remains (i) an exponential function of
-time (i.e. time is variable in the exponent) and (ii) derivative of
-absorbance is proportional to itself (Equation 7). These are two intrinsic property
+Here, we see that the derivative remains \(i\) an exponential function of
+time (i.e. time is variable in the exponent) and \(ii\) derivative of
+absorbance is proportional to itself \(Equation 7\). These are two intrinsic property
 of exponential functions.
 
 Per `Wikipedia` page on [Exponential
@@ -85,15 +85,15 @@ Function](https://en.wikipedia.org/wiki/Exponential_function),
 
 > As functions of a real variable, exponential functions are uniquely
 > characterized by the fact that the growth rate of such a function
-> (that is, its derivative) is directly proportional to the value of the
+> \(that is, its derivative\) is directly proportional to the value of the
 > function. The constant of proportionality of this relationship is the
-> natural logarithm of the base b: $$\frac{d}{dx}b^x = b^x \log_{e}b$$
+> natural logarithm of the base b: $\frac{d}{dx}b^x = b^x \log_{e}b$
 
 However, we want an estimate of growth rate that is proportional or
-independent of time (i.e., not exponential to time). To overcome this
+independent of time \(i.e., not exponential to time\). To overcome this
 issue, we can take advantage of a useful mathematical property of
 exponential functions. If a "variable exhibits exponential growth, then
-the log (to any base) of the variable grows linearly over time" as I
+the log \(to any base\) of the variable grows linearly over time" as I
 demonstrate below. Recall that
 
 \begin{equation}
@@ -102,19 +102,20 @@ A(t) = A(0) \times 2^{t/ \tau}
 
 and that $\log_{b}{(x^d)}=d\log_{b}{(x)}$ such that
 
-$$\begin{split}
+\begin{equation}\begin{split}
 \ln{A(t)}  & = \ln{\left(A(0)\times2^{t/ \tau}\right)} \\
 \ln{A(t)}  & = \ln{A(0)} + \ln{(2^{t/ \tau})} \\
 \ln{A(t)}  & = \ln{A(0)} + \frac{t}{\tau}\ln(2) \\
 \ln{A(t)}  & = \ln{A(0)} + \left(\frac{\ln{2}}{\tau}\right)t
-\end{split}$$
+\end{split}\end{equation}
 
 We can easily take the derivative of the natural logarithm of $A(t)$
 
-$$\begin{split}
+\begin{equation}\begin{split}
 \frac{d}{dt}\ln{A(t)} & = \frac{d}{dt}\ln{A(0)} + \frac{d}{dt}\left(\frac{\ln{2}}{\tau}\right)t \\
 \frac{d}{dt}\ln{A(t)} & = \left(\frac{\ln{2}}{\tau}\right)  \\
-\end{split}$$
+\end{split}\end{equation}
+
 
 As you can see the natural logarithm of absorbance is now a function of
 time $t$ (Equation 9) . This relationship is akin to the didactically
@@ -127,9 +128,9 @@ m = \frac{d}{dt}\ln{A(t)} = \left(\frac{\ln{2}}{\tau}\right)
 \end{equation}
 
 We refer to $m$ as the maximum specific growth rate[^2][^3] . Because we
-assumed that growth factor is two (i.e., bacteria reproduce by doubling),
-the inside of the natural logarithm is two (the base of exponent in
-Equations 3 and 8). Further, once we
+assumed that growth factor is two \(i.e., bacteria reproduce by doubling\),
+the inside of the natural logarithm is two \(the base of exponent in
+Equations 3 and 8\). Further, once we
 estimate the maximum specific growth rate, we can easily compute
 doubling time as
 
@@ -148,21 +149,21 @@ expression
 
 where $b$ is the base of the logarithm used for simplifying the model,
 $g$ is the growth factor, and $m$ is the maximum specific growth rate.
-The $e=2.71828$ constant (base of natural logarithm) is often used
-because it has interesting mathematical properties (e.g., it is the
+The $e=2.71828$ constant \(base of natural logarithm\) is often used
+because it has interesting mathematical properties \(e.g., it is the
 "unique base for which the constant of proportionality is 1, so that the
 exponential function's derivative is itself"
-$\frac{d}{dt}e^{t}=e^{t}\log_{e}{e}=e^{t}$). Still, any other base
+$\frac{d}{dt}e^{t}=e^{t}\log_{e}{e}=e^{t}$\). Still, any other base
 larger than 1 can be used. Data should be transformed with the logarithm
 of the selected base, maximum specific growth rate can then be computed,
 and doubling time inferred from Equation 13.
 
 In the case of non-parametric Gaussian Process Regression of growth
-curve data, the maximum *a posteriori* (MAP) estimate of the derivative
+curve data, the maximum *a posteriori* \(MAP\) estimate of the derivative
 of the logarithm-transformed is $m$. Growth curves analyzed with
-classical models (e.g., logistic or gompertz) directly capture a
-parameter that corresponds to the maximum specific growth rate (often
-referred to as $r$) which is also assumed to be the slope of growth
+classical models \(e.g., logistic or gompertz\) directly capture a
+parameter that corresponds to the maximum specific growth rate \(often
+referred to as $r$\) which is also assumed to be the slope of growth
 during exponential phase. These models inherently account for
 exponential growth by including $e^{-rt}$ in their mathematical
 expression,
@@ -171,28 +172,28 @@ expression,
 A(t) = \frac{K}{1+\left(\frac{K-N(0)}{N(0)}\right)e^{-rt}}
 \end{equation}
 
-such that doubling time can be computed with Equation 12 directly with the estimate of $r$ (i.e. $m$);
+such that doubling time can be computed with Equation 12 directly with the estimate of $r$ \(i.e. $m$\);
 in these cases, because the base is $e$, the numerator for $\tau$ is the
 natural logarithm of two.
 
 Below is a simple example comparing the classical and GP-based models. I
 simulated logistic growth superimposed with a linear negative delay
-(Figure 1AA). As
+\(Figure 1A\). As
 expected, there is a slight lag followed by exponential growth that
 starts to slow down leading to linear increase in OD around $t=40$
 eventually plateauing at $y=2$. The logarithm transformation of $y(t)$
-shows the exponential growth as linear growth in log-space (Figure 1B). The
+shows the exponential growth as linear growth in log-space \(Figure 1B\). The
 derivative of untransformed $y(t)$ captures the maximum linear phase of
 growth which occurs after the population exits exponential growth (Figure 1C). However, the
 derivative of the logarithm-transformed $y(t)$ captures the maximum
-specific growth rate (during exponential growth) as $~0.16$ (Figure
-1D). The true
-growth rate in the logistic model (Equation 14) was set to $0.15$.
+specific growth rate \(during exponential growth\) as $~0.16$ \(Figure
+1D\). The true
+growth rate in the logistic model \(Equation 14\) was set to $0.15$.
 
 ![Simulation of logistic growth and inference of its growth rate](/assets/img/midani-bacterial-growth-primer.png){:height="200px" width="250px" .center}
 
 [^1]: As an aside, the linear relationship of absorbance to population
-    size (or culture density) only holds for an instrument-specific and
+    size \(or culture density\) only holds for an instrument-specific and
     bacteria-specific range of absorbance. At extremely low or high
     absorbance, the relationship between these variables is no longer
     assumed to be linear. This linearity range can be inferred with a
