@@ -102,12 +102,14 @@ A(t) = A(0) \times 2^{t/ \tau}
 
 and that $\log_{b}{(x^d)}=d\log_{b}{(x)}$ such that
 
-\begin{equation}\begin{split}
+\begin{equation}
+\begin{split}
 \ln{A(t)}  & = \ln{\left(A(0)\times2^{t/ \tau}\right)} \\
 \ln{A(t)}  & = \ln{A(0)} + \ln{(2^{t/ \tau})} \\
 \ln{A(t)}  & = \ln{A(0)} + \frac{t}{\tau}\ln(2) \\
 \ln{A(t)}  & = \ln{A(0)} + \left(\frac{\ln{2}}{\tau}\right)t
-\end{split}\end{equation}
+\end{split}
+\end{equation}
 
 We can easily take the derivative of the natural logarithm of $A(t)$
 
@@ -192,8 +194,8 @@ specific growth rate (during exponential growth<a></a>) as $~0.16$ (Figure
 growth rate in the logistic model (Equation 14<a></a>) was set to $0.15$.
 
 <p align="center">
-![Simulation of logistic growth and inference of its growth rate](/assets/img/midani-bacterial-growth-primer.png){:height="400px" width="500px"}
-</p>p>
+![Simulation of logistic growth and inference of its growth rate](/assets/img/midani-bacterial-growth-primer.png){:height="400px" width="500px" .center}
+</p>
 
 [^1]: As an aside, the linear relationship of absorbance to population
     size (or culture density<a></a>) only holds for an instrument-specific and
@@ -210,5 +212,3 @@ growth rate in the logistic model (Equation 14<a></a>) was set to $0.15$.
     Growthcurver: an R package for obtaining interpretable metrics from
     microbial growth curves *BMC Bioinformatics*. 2016
     
-<br><br><br>
-![footer_banner](/assets/img/mosaic_footer.png)
