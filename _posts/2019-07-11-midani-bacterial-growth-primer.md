@@ -13,20 +13,26 @@ form eight cells, and so on. Accordingly, a bacterial community grows by
 doubling at each generation. This can be mathematically expressed as
 follows:
 
-$$N(i+1) = N(i) \times 2$$
+\begin{equation}
+N(i+1) = N(i) \times 2
+\end{equation}
 
 where $i$ indicates generation number and $N(i)$ indicates population
 size at generation $i$. We can further simplify population size, with a
 closed-form solution, as a function of the initial population size
 $N(0)$, number of generations $i$, and growth factor $g$.
 
-$$N(i) = N(0) \times g^i$$
+\begin{equation}
+N(i) = N(0) \times g^i
+\end{equation}
 
 Because we are modelling bacterial growth, we will simply assume that
 bacteria always replicate by doubling and therefore growth factor $g$
 must equal $2$.
 
-$$N(i) = N(0) \times 2^i$$
+\begin{equation}
+N(i) = N(0) \times 2^i
+\end{equation}
 
 The most common method for measuring bacterial growth is
 spectrophotometry, where the absorbance or optical density (OD) of a
@@ -34,20 +40,26 @@ bacterial culture is proportional to population size[^1] and absorbance
 is measured over time. Therefore, we can model absorbance as a function
 of microbial population size.
 
-$$A(t) \propto N(i)$$
+\begin{equation}
+A(t) \propto N(i)
+\end{equation}
 
 Because we are interested in modelling the absorbance as a function of
 time, we need to properly substitute the $i$ exponent (number of
 generations) with a corresponding function of time.
 
-$$n = \frac{t}{\tau}$$
+\begin{equation}
+n = \frac{t}{\tau}
+\end{equation}
 
 where $\tau$ is the generation time, i.e., how long it takes for a new
 generation to arise or, in the specific case of bacteria, how long it
 takes a parent cell to split into two daughter cells. This yields the
 following estimate of absorbance as a function of time
 
-$$A(t) = A(0) \times 2^{t/ \tau}$$
+\begin{equation}
+A(t) = A(0) \times 2^{t/ \tau}
+\end{equation}
 
 By measuring absorbance at multiple intervals of time, we can capture a
 bacterial growth curve and we are primarily interested in capturing the
@@ -56,10 +68,12 @@ The derivative of our growth curve (i.e. absorbance) at time $t$ when
 bacteria are growing fastest (curve is steepest), should give us the
 maximum population growth rate.
 
-$$\frac{d}{dt}A(t)
+\begin{equation}
+\frac{d}{dt}A(t)
 = \frac{d}{dt}\left[A(0)\times 2^{t/\tau}\right]
 = A(0)\times \frac{1}{\tau} \times \ln{2} \times 2^{t/\tau}
-\propto2^{t/\tau}$$
+\propto2^{t/\tau}
+\end{equation}
 
 Here, we see that the derivative remains (i) an exponential function of
 time (i.e. time is variable in the exponent) and (ii) derivative of
@@ -82,7 +96,9 @@ exponential functions. If a "variable exhibits exponential growth, then
 the log (to any base) of the variable grows linearly over time" as I
 demonstrate below. Recall that
 
-$$A(t) = A(0) \times 2^{t/ \tau}$$
+\begin{equation}
+A(t) = A(0) \times 2^{t/ \tau}
+\end{equation}
 
 and that $\log_{b}{(x^d)}=d\log_{b}{(x)}$ such that
 
@@ -106,7 +122,9 @@ classical form of a linear function $y=b+mx$ from basic algebra, where
 $y$ is the dependent variable, $x$ is the independent variable, $b$ is
 the y-intercept, and $m$ is the slope.
 
-$$m = \frac{d}{dt}\ln{A(t)} = \left(\frac{\ln{2}}{\tau}\right)$$
+\begin{equation}
+m = \frac{d}{dt}\ln{A(t)} = \left(\frac{\ln{2}}{\tau}\right)
+\end{equation}
 
 We refer to $m$ as the maximum specific growth rate[^2][^3] . Because we
 assumed that growth factor is two (i.e., bacteria reproduce by doubling),
@@ -115,14 +133,18 @@ Equations 3 and 8). Further, once we
 estimate the maximum specific growth rate, we can easily compute
 doubling time as
 
-$$\tau = \left(\frac{\ln2}{m}\right)$$
+\begin{equation}
+\tau = \left(\frac{\ln2}{m}\right)
+\end{equation}
 
 We could have taken the natural logarithm of Equation 8 to any base that
 is larger than 1 and assumed a growth factor different than two.
 Eventually, we would always end up with the following generalized
 expression
 
-$$\tau = \left(\frac{\log_{b}{g}}{m}\right)$$
+\begin{equation}
+\tau = \left(\frac{\log_{b}{g}}{m}\right)
+\end{equation}
 
 where $b$ is the base of the logarithm used for simplifying the model,
 $g$ is the growth factor, and $m$ is the maximum specific growth rate.
@@ -145,7 +167,9 @@ during exponential phase. These models inherently account for
 exponential growth by including $e^{-rt}$ in their mathematical
 expression,
 
-$$A(t) = \frac{K}{1+\left(\frac{K-N(0)}{N(0)}\right)e^{-rt}}$$
+\begin{equation}
+A(t) = \frac{K}{1+\left(\frac{K-N(0)}{N(0)}\right)e^{-rt}}
+\end{equation}
 
 such that doubling time can be computed with Equation 12 directly with the estimate of $r$ (i.e. $m$);
 in these cases, because the base is $e$, the numerator for $\tau$ is the
